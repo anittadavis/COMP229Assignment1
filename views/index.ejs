@@ -7,35 +7,189 @@
   
 
   <!-- Main content -->
-    <main class="conatiner">
+    <main class="container">
       <div class="jumbotron">
+
+      <div class="layout_wrapper">  
+
         <div class="container text-center">
-        <h1 class="display-5">Welcome to the <%= title %> page</h1>
+        <h1 class="display-5">Hi</h1>
+        <h1 class="display-5">I'm Anitta Davis</h1>
+        <h6 class="display-5">Software Engineer|Artificial Intelligence</h6>
+        <label for="floatingTextarea2"></label>
+
+        </blockquote>
+        <p>
+          <a class="btn btn-primary btn-large" href="/about">
+            About Me
+          </a>
+        </p>
+
         </div>
+      </div>
       </div>
 
     </main>
 
 
-    <main class="conatiner">
+
+
+    <main class="container">
       <div class="jumbotron">
         <div class="container text-center">
-        <h1 class="display-3"></h1>
+        <h4 class="display-5">About Me</h4>
+        <label for="floatingTextarea2"></label>
+        
+
+       <div class="card_profile">
+       <div class="profile profile_photo">
+        <img src="/Assets/images/photo.jpg" style="max-height: 150px;">
+       </div>
+       
+        <h6 class="display-5">Anitta Davis</h6>
+        
+        <div class="profile-description">
+        <p class="description"> I am a Computer science Engineering Graduate and pursuing Software Engineering - Artificial Intelligence. Iam a self motivated indian, who is very passionated to be part of technologies.Being a qualified Engineer demands the development of a sense of identity depending on the beliefs and attributes of the field. Moreover, engineers must exhibit excellent professional behavior and overall ethics.  </p></div>
+        <div>
+          <a href="Assets/resume.pdf" class="btn btn btn-primary" target="blank">
+            Get my Resume
+          </a>
         </div>
+        </div>
+        </div>
+      </div>
       </div>
 
     </main>
 
 
-    <main class="conatiner">
+    <main class="container">
       <div class="jumbotron">
         <div class="container text-center">
-        <h1 class="display-2"></h1>
+        <h4 class="display-5">Projects</h4>
         </div>
+        <label for="floatingTextarea2"></label>
+
+        <div class="row">
+          <div class="box">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="Assets/images/childtracker.png">
+
+              <div id="project1" class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Project</h5>
+                  <p class="card-text">Child Tracker Application</p>
+                  <h5 class="card-title">Description</h5>
+                  <p class="card-text">An application to track the location of a child.</p>
+                  
+                  <h5 class="card-title">Outcome</h5>
+                  <p class="card-text">Provided a safe and convenient application for the parents to monitor their kids.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+           
+
+        
+          <div class="box">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="Assets/images/hologram.png">
+
+              <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Project</h5>
+                  <p class="card-text">Colorization And Holographic Representation of Forensic Sketches</p>
+                  <h5 class="card-title">Description</h5>
+                  <p class="card-text">Introducing a method to generate photos from sketches using Deep Convolutional Neural Network (DCNN) and the holographic model.</p>
+                  
+                  <h5 class="card-title">Outcome</h5>
+                  <p class="card-text">Provided more accurate forensic sketches for forensic investigations.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+             
       </div>
+      </div>
+      </div>
+      </div>
+      </div>
+    
+
+      
 
     </main>
 
+    <main class="container">
+      <div class="jumbotron">
+        <div class="container text-center">
+        <h4 class="display-5">Services</h4>
+        </div>
+        
+    
+        <div class="row">
+        <div class="span4">
+          <img class="bs-icon" style="width:170px;height:170px;margin-right:15px;" src="/images/email.png">
+          <h2>Web Development</h2>
+          <p>We provide web application development and web maintenance services</p>
+        </div>
+
+        <div class="span4">
+          <img class="bs-icon" style="width:170px;height:170px;margin-right:15px;" src="/images/iphone.png">
+          <h4>App Development</h4>
+          <p>We develop apps so that your product or service appears in <b>Google Play</b> and <b>App Store</b></p>
+        </div>
+        </div>
+      </div>
+    </main>
+
+
+
+
+    
+
+
+
+
+    <main class="container">
+      <div class="jumbotron">
+        <div class="container text-center">
+        <h4 class="display-5">Contact Me</h4>
+        <label for="floatingTextarea2"></label>
+        <label for="floatingTextarea2">Don’t miss to contact me for more information, kindly fill the form below.</label>
+      </div>
+
+      <div class="row">
+      <div class="col">
+         <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+      </div>
+      <div class="col">
+         <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+         <label for="floatingTextarea2"></label>
+      </div>
+      </div>
+
+      
+      <div class="row">
+
+
+      <div class="col">
+         <input type="text" class="form-control" placeholder="Email Address" aria-label="Email Address">
+        <label for="floatingTextarea2"></label>
+      </div>
+      </div>
+
+      <div class="form-floating">
+         <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+         <label for="floatingTextarea2"></label>
+      </div>
+
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+
+    </main>
 
 <%- include partials/bottom_nav.ejs %>
     
